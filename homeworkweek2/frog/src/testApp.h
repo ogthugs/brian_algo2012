@@ -3,6 +3,7 @@
 
 #include "ofMain.h"
 #include "rectangle.h"
+#include "cars.h"
 
 class testApp : public ofSimpleApp{
 
@@ -20,15 +21,13 @@ class testApp : public ofSimpleApp{
 		void mousePressed(int x, int y, int button);
 		void mouseReleased();
 	
-		//float pos_x;
-		//float pos_y;
-		//float catchUpSpeed;
+		
 
 		rectangle myRectangle;
 	
+		cars myCars[10];
+		float pct;
 	
-		//rectangle myRectangle;
-		//rectangle myRectangle1;
 	
 };
 
