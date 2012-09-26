@@ -11,7 +11,6 @@ public:
 	
 	void draw();
 	
-	
 	ofPoint	pos;
 	float	angle;
 
