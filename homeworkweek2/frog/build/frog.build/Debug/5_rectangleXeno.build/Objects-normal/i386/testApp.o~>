@@ -1,0 +1,3 @@
+/Users/ogthugs/Documents/of_0071_osx_release/algo2012_homework/homeworkweek2/frog/src/testApp.cpp: In member function 'virtual void testApp::draw()':
+/Users/ogthugs/Documents/of_0071_osx_release/algo2012_homework/homeworkweek2/frog/src/testApp.cpp:40: error: no matching function for call to 'rectangle::draw(int&, int&)'
+/Users/ogthugs/Documents/of_0071_osx_release/algo2012_homework/homeworkweek2/frog/src/rectangle.h:12: note: candidates are: void rectangle::draw()
